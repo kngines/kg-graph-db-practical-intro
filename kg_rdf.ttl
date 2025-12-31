@@ -1,0 +1,11 @@
+@prefix ns1: <http://example.org/knowledgegraph/> .
+
+ns1:马云 a ns1:PER ;
+    ns1:创始人 ns1:阿里巴巴 .
+
+ns1:杭州 a ns1:LOC ;
+    ns1:属于 ns1:浙江省 .
+
+ns1:阿里巴巴 a ns1:ORG ;
+    ns1:位于 ns1:杭州 .
+

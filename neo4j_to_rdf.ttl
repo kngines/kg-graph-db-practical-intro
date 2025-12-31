@@ -1,0 +1,26 @@
+@prefix ns1: <http://example.org/neo4j2rdf/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/neo4j2rdf/book/1001> a ns1:Book ;
+    ns1:author <http://example.org/neo4j2rdf/person/2001> ;
+    ns1:name "Neo4j图数据库与知识图谱"^^xsd:string ;
+    ns1:publicationYear "2025"^^xsd:string ;
+    ns1:type <http://example.org/neo4j2rdf/resource/Book> .
+
+<http://example.org/neo4j2rdf/person/2002> a ns1:Person ;
+    ns1:interest "知识图谱"^^xsd:string ;
+    ns1:name "李四"^^xsd:string ;
+    ns1:type "http://xmlns.com/foaf/0.1/Person"^^xsd:string .
+
+<http://example.org/neo4j2rdf/person/2001> a ns1:Person ;
+    ns1:knows "http://example.org/people/2002"^^xsd:string ;
+    ns1:mbox "zhangsan@example.com"^^xsd:string ;
+    ns1:name "张三"^^xsd:string ;
+    ns1:profession "知识图谱工程师"^^xsd:string ;
+    ns1:type <http://example.org/neo4j2rdf/resource/Person>,
+        "http://xmlns.com/foaf/0.1/Person"^^xsd:string .
+
+<http://example.org/neo4j2rdf/resource/Book> a ns1:Resource .
+
+<http://example.org/neo4j2rdf/resource/Person> a ns1:Resource .
+

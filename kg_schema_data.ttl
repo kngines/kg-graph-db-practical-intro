@@ -1,0 +1,52 @@
+@prefix kg: <http://example.org/KG/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+kg:Company a rdfs:Class .
+
+kg:Movie a rdfs:Class .
+
+kg:Person a rdfs:Class .
+
+kg:LiuCixin a kg:Person ;
+    kg:age 59 ;
+    kg:created kg:WanderingEarth ;
+    kg:name "刘慈欣"^^xsd:string .
+
+kg:ZhangSan a kg:Person ;
+    kg:age 30 ;
+    kg:name "张三"^^xsd:string ;
+    kg:worksAt kg:Alibaba .
+
+kg:age rdfs:domain kg:Person ;
+    rdfs:range xsd:integer .
+
+kg:created rdfs:domain kg:Person ;
+    rdfs:range kg:Movie .
+
+kg:industry rdfs:domain kg:Company ;
+    rdfs:range xsd:string .
+
+kg:name rdfs:domain kg:Person ;
+    rdfs:range xsd:string .
+
+kg:produced rdfs:domain kg:Company ;
+    rdfs:range kg:Movie .
+
+kg:release_year rdfs:domain kg:Movie ;
+    rdfs:range xsd:integer .
+
+kg:worksAt a rdf:Property ;
+    rdfs:domain kg:Person ;
+    rdfs:range kg:Company .
+
+kg:Alibaba a kg:Company ;
+    kg:industry "互联网"^^xsd:string ;
+    kg:name "阿里巴巴集团"^^xsd:string ;
+    kg:produced kg:WanderingEarth .
+
+kg:WanderingEarth a kg:Movie ;
+    kg:name "《流浪地球》"^^xsd:string ;
+    kg:release_year 2019 .
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://example.org/ontology/"
+   xmlns:ns2="http://schema.org/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://example.org/ontology/Book1001">
+    <rdf:type rdf:resource="http://example.org/ontology/EBook"/>
+    <ns2:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neo4j图数据库与知识图谱</ns2:name>
+    <ns1:mainAuthor rdf:resource="http://example.org/ontology/ZhangSan"/>
+    <ns1:downloadCount rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10000</ns1:downloadCount>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/ZhangSan">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <owl:sameAs rdf:resource="http://example.org/people/2001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/mainAuthor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://schema.org/Book"/>
+    <rdfs:range rdf:resource="http://schema.org/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/downloadCount">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/ontology/EBook"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/PrintBook">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://schema.org/Book"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/wroteBook">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:inverseOf rdf:resource="http://example.org/ontology/mainAuthor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/EBook">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://schema.org/Book"/>
+    <owl:disjointWith rdf:resource="http://example.org/ontology/PrintBook"/>
+  </rdf:Description>
+</rdf:RDF>
