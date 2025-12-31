@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5703ee29-4120-4e1b-b425-520ff20e90a9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kg-graph-db-practical-intro.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.2.2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.4-基于Cypher的Neo4j知识查询.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.4-基于机器学习的关系推理（TransE算法，使用pykeen）.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.4-基于规则的推理（Neo4j Cypher规则）.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.4-将三元组存入Neo4j.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.4-抽取人物关系知识.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.4-知识图谱驱动的个性化推荐系统.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.5-1-构建影视知识图谱.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.5-2-实现智能搜索功能.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.5-3-基于知识图谱的影视个性化推荐.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.5-4-简单影视知识问答系统.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.5-5-基于知识图谱的企业关联风控查询.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.1.3-NetworkX实现最短路径（原型验证）.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.2.3 实战：Python（py2neo+NetworkX）对接Neo4j实现.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.3.2 实战：Python（py2neo+NetworkX）实现中心性计算.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.4.2 实战：Python（py2neo+NetworkX）实现社区发现.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.5.2 实战：Python（py2neo+NetworkX）实现相似度与链接预测.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.6.2 性能优化最佳实践-1. 数据读取优化（减少Neo4j交互开销）.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.6.2 性能优化最佳实践-2. 增量计算（避免全量重算，提升效率）.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.6.2 性能优化最佳实践-3. 批量执行与任务调度.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.6.4 生产落地案例：用户分群与个性化推荐.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.1.2 实战1：用rdflib创建RDF三元组.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.1.3 实战2：将RDF三元组导入Neo4j.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.2.3 实战1：用rdflib定义RDFS-OWL本体.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.2.4 实战2：将OWL本体导入Neo4j.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.4.3 实战1：基于Schema.org构建图书知识图谱并导入Neo4j.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.4.4 实战2：基于FOAF构建人物关系图谱并导入Neo4j.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.5.3 实战1：RDF→Neo4j属性图（批量转换工具）.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.5.4 实战2：Neo4j属性图→RDF（导出为标准化格式）.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.1.1-从MySQL导入结构化数据到Neo4j.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.1.2 半结构化数据-从JSON文件导入半结构化数据到Neo4j.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.2.2 实战代码：基于BERT的中文NER+RE（适配Neo4j）-基于BERT的中文关系抽取.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.2.2 实战代码：基于BERT的中文NER+RE（适配Neo4j）-基于HuggingFace的中文NER实现.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.2.2 实战代码：基于BERT的中文NER+RE（适配Neo4j）-抽取结果导入Neo4j.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.3.2 实战代码：Neo4j实体对齐与消歧.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.4.2 实战代码：Neo4j vs. Jena 存储对比-1. Neo4j存储（属性图模型）.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.4.2 实战代码：Neo4j vs. Jena 存储对比-2. Jena存储（RDF三元组模型）.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.5.2 实战代码：端到端Pipeline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Neo4jClient.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckiplab/bert-base-chinese-ner/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckiplab/bert-base-chinese-ner/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckiplab/bert-base-chinese-ner/flax_model.msgpack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckiplab/bert-base-chinese-ner/gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckiplab/bert-base-chinese-ner/pytorch_model.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckiplab/bert-base-chinese-ner/special_tokens_map.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckiplab/bert-base-chinese-ner/tokenizer_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckiplab/bert-base-chinese-ner/vocab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/bert-base-chinese/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/bert-base-chinese/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/bert-base-chinese/configuration.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/bert-base-chinese/model.safetensors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/bert-base-chinese/tokenizer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/bert-base-chinese/tokenizer_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/bert-base-chinese/vocab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="37BsfXeumhGqdlHdDIaNVssrZB0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.3.1.executor": "Run",
+    "Python.3.2.2.executor": "Run",
+    "Python.3.2.executor": "Run",
+    "Python.3.3.executor": "Debug",
+    "Python.3.4-基于Cypher的Neo4j知识查询.executor": "Run",
+    "Python.3.4-基于机器学习的关系推理（TransE算法，使用pykeen）.executor": "Run",
+    "Python.3.4-基于规则的推理（Neo4j Cypher规则）.executor": "Run",
+    "Python.3.4-将三元组存入Neo4j.executor": "Run",
+    "Python.3.4-抽取人物关系知识.executor": "Run",
+    "Python.3.4-知识图谱驱动的个性化推荐系统.executor": "Debug",
+    "Python.3.5-1-构建影视知识图谱.executor": "Run",
+    "Python.3.5-2-实现智能搜索功能.executor": "Run",
+    "Python.3.5-3-基于知识图谱的影视个性化推荐.executor": "Run",
+    "Python.3.5-4-简单影视知识问答系统.executor": "Run",
+    "Python.3.5-5-基于知识图谱的企业关联风控查询.executor": "Run",
+    "Python.6.1.3-NetworkX实现最短路径（原型验证）.executor": "Run",
+    "Python.6.2.3 实战：Python（py2neo+NetworkX）对接Neo4j实现.executor": "Run",
+    "Python.6.3.2 实战：Python（py2neo+NetworkX）实现中心性计算.executor": "Run",
+    "Python.6.4.2 实战：Python（py2neo+NetworkX）实现社区发现.executor": "Run",
+    "Python.6.5.2 实战：Python（py2neo+NetworkX）实现相似度与链接预测.executor": "Run",
+    "Python.6.6.2 性能优化最佳实践-1. 数据读取优化（减少Neo4j交互开销）.executor": "Run",
+    "Python.6.6.2 性能优化最佳实践-2. 增量计算（避免全量重算，提升效率）.executor": "Run",
+    "Python.6.6.2 性能优化最佳实践-3. 批量执行与任务调度.executor": "Run",
+    "Python.6.6.4 生产落地案例：用户分群与个性化推荐.executor": "Run",
+    "Python.7.1.2 实战1：用rdflib创建RDF三元组.executor": "Run",
+    "Python.7.1.3 实战2：将RDF三元组导入Neo4j.executor": "Run",
+    "Python.7.2.3 实战1：用rdflib定义RDFS-OWL本体.executor": "Run",
+    "Python.7.2.4 实战2：将OWL本体导入Neo4j.executor": "Run",
+    "Python.7.4.3 实战1：基于Schema.org构建图书知识图谱并导入Neo4j.executor": "Run",
+    "Python.7.4.4 实战2：基于FOAF构建人物关系图谱并导入Neo4j.executor": "Run",
+    "Python.7.5.3 实战1：RDF→Neo4j属性图（批量转换工具）.executor": "Run",
+    "Python.7.5.4 实战2：Neo4j属性图→RDF（导出为标准化格式）.executor": "Run",
+    "Python.8.1.1-从MySQL导入结构化数据到Neo4j.executor": "Run",
+    "Python.8.1.2 半结构化数据-从JSON文件导入半结构化数据到Neo4j.executor": "Run",
+    "Python.8.2.2 实战代码：基于BERT的中文NER+RE（适配Neo4j）-基于BERT的中文关系抽取.executor": "Run",
+    "Python.8.2.2 实战代码：基于BERT的中文NER+RE（适配Neo4j）-基于HuggingFace的中文NER实现 (1).executor": "Run",
+    "Python.8.2.2 实战代码：基于BERT的中文NER+RE（适配Neo4j）-抽取结果导入Neo4j.executor": "Run",
+    "Python.8.2.2 实战代码：基于BERT的中文NER+RE（适配Neo4j）.executor": "Run",
+    "Python.8.3.2 实战代码：Neo4j实体对齐与消歧.executor": "Run",
+    "Python.8.4.2 实战代码：Neo4j vs. Jena 存储对比-1. Neo4j存储（属性图模型）.executor": "Run",
+    "Python.8.4.2 实战代码：Neo4j vs. Jena 存储对比-2. Jena存储（RDF三元组模型）.executor": "Run",
+    "Python.8.5.2 实战代码：端到端Pipeline.executor": "Run",
+    "Python.Neo4jClient.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.test.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "E:/PycharmSpace/kg-graph-db-practical-intro/ ckiplab/bert-base-chinese-ner",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\PycharmSpace\kg-graph-db-practical-intro\ ckiplab\bert-base-chinese-ner" />
+      <recent name="E:\PycharmSpace\kg-graph-db-practical-intro\models\bert-base-chinese" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.7.5.4 实战2：Neo4j属性图→RDF（导出为标准化格式）">
+    <configuration name="7.2.4 实战2：将OWL本体导入Neo4j" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="kg-graph-db-practical-intro" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7.2.4 实战2：将OWL本体导入Neo4j.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="7.4.3 实战1：基于Schema.org构建图书知识图谱并导入Neo4j" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="kg-graph-db-practical-intro" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7.4.3 实战1：基于Schema.org构建图书知识图谱并导入Neo4j.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="7.4.4 实战2：基于FOAF构建人物关系图谱并导入Neo4j" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="kg-graph-db-practical-intro" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7.4.4 实战2：基于FOAF构建人物关系图谱并导入Neo4j.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="7.5.3 实战1：RDF→Neo4j属性图（批量转换工具）" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="kg-graph-db-practical-intro" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7.5.3 实战1：RDF→Neo4j属性图（批量转换工具）.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="7.5.4 实战2：Neo4j属性图→RDF（导出为标准化格式）" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="kg-graph-db-practical-intro" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7.5.4 实战2：Neo4j属性图→RDF（导出为标准化格式）.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="kg-graph-db-practical-intro" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.7.5.4 实战2：Neo4j属性图→RDF（导出为标准化格式）" />
+        <item itemvalue="Python.7.5.3 实战1：RDF→Neo4j属性图（批量转换工具）" />
+        <item itemvalue="Python.7.4.4 实战2：基于FOAF构建人物关系图谱并导入Neo4j" />
+        <item itemvalue="Python.7.4.3 实战1：基于Schema.org构建图书知识图谱并导入Neo4j" />
+        <item itemvalue="Python.7.2.4 实战2：将OWL本体导入Neo4j" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50da183f06c8-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13135.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5703ee29-4120-4e1b-b425-520ff20e90a9" name="Changes" comment="" />
+      <created>1766387902526</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1766387902526</updated>
+    </task>
+    <servers />
+  </component>
+</project>
